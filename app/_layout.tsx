@@ -22,7 +22,10 @@ SplashScreen.preventAutoHideAsync();
 
 export default function RootLayout() {
   const [loaded, error] = useFonts({
-    SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
+    latoRegular: require('../assets/fonts/Lato-Regular.ttf'), 
+    latoBold: require('../assets/fonts/Lato-Bold.ttf'),
+    latoSemiBold: require('../assets/fonts/Lato-Semi-Bold.ttf'),
+
     ...FontAwesome.font,
   });
 
@@ -48,11 +51,10 @@ function RootLayoutNav() {
   const colorScheme = useColorScheme();
 
   return (
-    <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
+    // <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
       <Stack>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="modal" options={{ presentation: 'modal' }} />
       </Stack>
-    </ThemeProvider>
+    // </ThemeProvider>
   );
 }
