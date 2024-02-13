@@ -1,4 +1,3 @@
-
 export const Colors = {
   light: {
     text: '#222222',
@@ -15,3 +14,12 @@ export const Colors = {
   },
 
 }
+
+
+
+
+
+
+
+
+
