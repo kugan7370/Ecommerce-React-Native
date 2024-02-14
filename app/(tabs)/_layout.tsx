@@ -5,8 +5,7 @@ import { Pressable } from "react-native";
 import { Entypo,MaterialIcons,Feather ,MaterialCommunityIcons  } from "@expo/vector-icons";
 
 import { Colors } from "@/constants/Colors";
-import { useColorScheme } from "@/components/useColorScheme";
-import { useClientOnlyValue } from "@/components/useClientOnlyValue";
+
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
@@ -20,16 +19,16 @@ function TabBarIcon(props: {
 }
 
 export default function TabLayout() {
-  const colorScheme = useColorScheme();
+  // const colorScheme = useColorScheme();
 
   return (
     <Tabs
-    initialRouteName="whishlist"
+    initialRouteName="cart"
       screenOptions={{
         // tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
         // Disable the static render of the header on web
         // to prevent a hydration error in React Navigation v6.
-        headerShown: useClientOnlyValue(true,false),
+        headerShown: false,
         tabBarStyle: {
          height: hp('10%'),
         },

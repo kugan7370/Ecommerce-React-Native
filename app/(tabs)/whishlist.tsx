@@ -9,8 +9,9 @@ import {
 import { Ionicons } from "@expo/vector-icons";
 import { multiCategory } from "@/data";
 import { Colors } from "react-native/Libraries/NewAppScreen";
-import CatCart from "@/components/CatCart";
+
 import { whishlistData } from "@/data";
+import CatCart from "@/components/CatCart";
 
 const whishlist = () => {
   return (
