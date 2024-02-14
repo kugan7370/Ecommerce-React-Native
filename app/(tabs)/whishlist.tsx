@@ -11,7 +11,7 @@ import { multiCategory } from "@/data";
 import { Colors } from "react-native/Libraries/NewAppScreen";
 
 import { whishlistData } from "@/data";
-import CatCart from "@/components/CatCart";
+import CatCart from "@/components/whishlistCart";
 
 const whishlist = () => {
   return (
