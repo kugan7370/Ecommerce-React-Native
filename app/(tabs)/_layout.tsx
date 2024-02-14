@@ -24,6 +24,7 @@ export default function TabLayout() {
 
   return (
     <Tabs
+    initialRouteName="whishlist"
       screenOptions={{
         // tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
         // Disable the static render of the header on web

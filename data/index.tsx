@@ -242,5 +242,85 @@ export const brand=[
    
 ]
 
+export const multiCategory=[
+    {
+        id:1,
+        name:'All'
+    },
+    {
+        id:2,
+        name:'child'
+    },
+    {
+        id:3,
+        name:'Man'
+    },
+    {
+        id:4,
+        name:'Women'
+    },
+    {
+        id:5,
+        name:'Dress'
+    },
+]
+
+export const whishlistData=[
+    {
+        id: 1,
+        image:  require('../assets/images/cartImages/1.jpg'),
+        title: 'Notebook BIgscreen Z51-70',
+        price: 120,
+        basePrice: 150,
+        rating: 4.7,
+
+    },
+    {
+        id: 2,
+        image:  require('../assets/images/cartImages/2.webp'),
+        title: 'Notebook BIgscreen Z51-70',
+        price: 120,
+        basePrice: 150,
+        rating: 4.7,
+
+    },
+    {
+        id: 3,
+        image:  require('../assets/images/cartImages/3.webp'),
+        title: 'Notebook BIgscreen Z51-70',
+        price: 120,
+        basePrice: 150,
+        rating: 4.7,
+
+    },
+    {
+        id: 4,
+        image:  require('../assets/images/cartImages/4.webp'),
+        title: 'Notebook BIgscreen Z51-70',
+        price: 120,
+        basePrice: 150,
+        rating: 4.7,
+
+    },
+    {
+        id: 5,
+        image:  require('../assets/images/cartImages/5.webp'),
+        title: 'Notebook BIgscreen Z51-70',
+        price: 120,
+        basePrice: 150,
+        rating: 4.7,
+
+    },
+    {
+        id: 6,
+        image:  require('../assets/images/cartImages/1.jpg'),
+        title: 'Notebook BIgscreen Z51-70',
+        price: 120,
+        basePrice: 150,
+        rating: 4.7,
+
+    },
+]
+
 
    
