@@ -323,4 +323,39 @@ export const whishlistData=[
 ]
 
 
+export const accountData=[
+    
+    {
+        id:1,
+        title:'Edit Profile',
+        iconName:"user" ,
+      
+    },
+    {
+        id:2,
+        title:'Save Address',
+        iconName:"home" ,
+      
+    },
+    {
+        id:3,
+        title:'Payment',
+        iconName:"creditcard" ,
+       
+    },
+    {
+        id:4,
+        title:'Help',
+        iconName:"questioncircleo" ,
+      
+    },
+    {
+        id:5,
+        title:'Logout',
+        iconName:"logout" ,
+       
+    }
+]
+
+
    
